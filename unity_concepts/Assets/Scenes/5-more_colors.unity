@@ -422,6 +422,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Name
+      value: Green Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654971504862957722, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 052b145b299d9b04598b9ce645d837e2, type: 2}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.23
@@ -464,7 +472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_Name
-      value: Ball (1)
+      value: Green Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -481,7 +489,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_Name
-      value: Ball (3)
+      value: Red Ball
       objectReference: {fileID: 0}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +544,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Name
+      value: Blue Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654971504862957722, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 34e318fb38e4ca045bbaed1a22434ecd, type: 2}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -578,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_Name
-      value: Ball (2)
+      value: Blue Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -593,6 +609,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Name
+      value: Black Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654971504862957722, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf0e585fc601d6243a170883bfb53975, type: 2}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9116592
@@ -635,7 +659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_Name
-      value: Ball
+      value: Black Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -652,8 +676,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 813801813428189868, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_Name
-      value: Ball (4)
+      value: White Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 7654971504862957722, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b47e8657b99c0884eaa6b663c0b373b3, type: 2}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.318748
