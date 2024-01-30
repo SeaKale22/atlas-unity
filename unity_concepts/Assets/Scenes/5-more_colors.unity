@@ -491,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 7654971504862957722, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1337994d31c11374895572b699e818a0, type: 2}
     - target: {fileID: 8296330898155375042, guid: 567e7609cc5818a44a8dda0d57e9abac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.34
