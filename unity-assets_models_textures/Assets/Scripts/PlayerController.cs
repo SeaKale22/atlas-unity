@@ -50,5 +50,19 @@ public class PlayerController : MonoBehaviour
             Quaternion toRotation = Quaternion.LookRotation(moveDitrection, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
+        
+        CheckFall();
+    }
+
+    void CheckFall()
+    {
+        if (transform.position.y < -10)
+        {
+            Debug.Log("Player fell!");
+            characterController.SimpleMove(Vector3.zero);
+            Debug.Log("Stopped momentum");
+            characterController.transform.position = new Vector3(0, 15, 0);
+            Debug.Log("Teleported to start!");
+        }
     }
 }
