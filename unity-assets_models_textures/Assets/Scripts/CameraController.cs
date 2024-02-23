@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     public float rotationSpeed;
     
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.position = player.transform.position + offset;
 
