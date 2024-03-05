@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="bc64d81d-418e-4db0-a107-b9fe8dbdaee8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level03.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level03.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level03.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" afterDir="false" />
@@ -28,9 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dEcq251tcr9q6YTZYYTNivEDC3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -111,6 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709576867784</updated>
       <workItem from="1709576875561" duration="481000" />
+      <workItem from="1709676340302" duration="1643000" />
     </task>
     <servers />
   </component>
