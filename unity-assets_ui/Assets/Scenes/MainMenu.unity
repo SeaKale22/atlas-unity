@@ -1779,6 +1779,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3459143078929404676, guid: 8a88bae0515e38543872dd8a2be41697, type: 3}
+      propertyPath: m_text
+      value: Options
+      objectReference: {fileID: 0}
     - target: {fileID: 3543030363370120535, guid: 8a88bae0515e38543872dd8a2be41697, type: 3}
       propertyPath: m_Name
       value: OptionsButton
