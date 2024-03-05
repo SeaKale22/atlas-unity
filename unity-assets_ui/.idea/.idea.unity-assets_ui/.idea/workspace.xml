@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc64d81d-418e-4db0-a107-b9fe8dbdaee8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level03.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level03.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level03.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" afterDir="false" />
