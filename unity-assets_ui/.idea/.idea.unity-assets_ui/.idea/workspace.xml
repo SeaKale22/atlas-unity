@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bc64d81d-418e-4db0-a107-b9fe8dbdaee8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.unity-assets_ui/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Changa/Changa-ExtraBold.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Changa/Changa-ExtraBold.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Changa/Changa-Medium.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Changa/Changa-Medium.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/button-level01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/button-level01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/goal.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Materials/trap.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../unity_publishing/Assets/Scripts/PlayerController.cs" afterDir="false" />
@@ -112,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709576867784</updated>
       <workItem from="1709576875561" duration="481000" />
-      <workItem from="1709676340302" duration="1643000" />
+      <workItem from="1709676340302" duration="1690000" />
     </task>
     <servers />
   </component>
