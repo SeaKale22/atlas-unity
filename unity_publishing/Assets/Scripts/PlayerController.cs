@@ -99,6 +99,6 @@ public class PlayerController : MonoBehaviour
     IEnumerator LoadScene(float seconds)
     {
         yield return new WaitForSeconds(seconds);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(1);
     }
 }
