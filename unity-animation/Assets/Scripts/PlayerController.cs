@@ -14,11 +14,13 @@ public class PlayerController : MonoBehaviour
     
     private CharacterController characterController;
     private float ySpeed;
+    private Animator tyAnimator;
     
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        tyAnimator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -28,6 +30,15 @@ public class PlayerController : MonoBehaviour
         float horizontalImput = Input.GetAxis("Horizontal");
         float verticalImput = Input.GetAxis("Vertical");
 
+        // if (verticalImput + horizontalImput > 0)
+        // {
+        //     tyAnimator.SetBool("IsRunning", true);
+        // }
+        // else
+        // {
+        //     tyAnimator.SetBool("IsRunning", false);
+        // }
+        
         // camera directions
         Vector3 camForwardDirection = camTransform.forward;
         Vector3 camRightDirection = camTransform.right;
@@ -58,6 +69,18 @@ public class PlayerController : MonoBehaviour
 
         Vector3 velocity = moveDitrection * magnitude;
         velocity.y = ySpeed;
+
+        // run animate
+        if (velocity.x != 0)
+        {
+            tyAnimator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            tyAnimator.SetBool("IsRunning", false);
+        }
+        
+        // move player
         characterController.Move(velocity * Time.deltaTime);
 
         if (moveDitrection != Vector3.zero)
