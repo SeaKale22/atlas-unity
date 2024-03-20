@@ -70,6 +70,7 @@ public class PlayerController : MonoBehaviour
             {
                 tyAnimator.SetBool("IsJump", false);
             }
+            tyAnimator.SetBool("IsFalling", false);
         }
 
         Vector3 velocity = moveDitrection * magnitude;
@@ -105,8 +106,9 @@ public class PlayerController : MonoBehaviour
     {
         if (transform.position.y < -10)
         {
+            tyAnimator.SetBool("IsFalling", true);
             characterController.SimpleMove(Vector3.zero);
-            characterController.transform.position = new Vector3(0, 15, 0);
+            characterController.transform.position = new Vector3(0, 30, 0);
         }
     }
 }
