@@ -64,6 +64,11 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 ySpeed = jumpSpeed;
+                tyAnimator.SetBool("IsJump", true);
+            }
+            else
+            {
+                tyAnimator.SetBool("IsJump", false);
             }
         }
 
@@ -71,7 +76,7 @@ public class PlayerController : MonoBehaviour
         velocity.y = ySpeed;
 
         // run animate
-        if (velocity.x != 0)
+        if (characterController.velocity.x != 0)
         {
             tyAnimator.SetBool("IsRunning", true);
         }
