@@ -10437,10 +10437,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3902741088909723382, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3902741088909723382, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
       propertyPath: camTransform
       value: 
       objectReference: {fileID: 963194228}
@@ -10493,10 +10489,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 963194229}
     - target: {fileID: 7756523079692888212, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7756523079692888212, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1743072658}
@@ -10504,14 +10496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2310048235339613724, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7951906663751435307, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7475280976478016959}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
 --- !u!1 &7475280976478016947 stripped
 GameObject:
@@ -10540,19 +10528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba47a449fa7436b4ba6007314012b5a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7475280976478016959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7475280976478016947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe21642f37a37744197cc711332e6c4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerScript: {fileID: 7475280976478016954}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
