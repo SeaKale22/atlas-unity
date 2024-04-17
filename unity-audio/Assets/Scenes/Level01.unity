@@ -353,6 +353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_stone
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -517,6 +521,7 @@ MonoBehaviour:
   timerScript: {fileID: 7475280976478016954}
   timerText: {fileID: 1743072658}
   WinCanvas: {fileID: 2145826600}
+  BGM: {fileID: 2138875915}
 --- !u!1001 &101493578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -580,6 +585,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1071,6 +1080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1507,6 +1520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge_stoneRoundNarrow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b8b980933cac1b47bf2871b783d6f52, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1714,6 +1731,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1952,6 +1973,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 88347f832177e934cb68b552765125df, type: 3}
       propertyPath: m_Name
       value: platform_beach (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88347f832177e934cb68b552765125df, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2763,6 +2788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: log
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 757c297d2437c8a44a429d36724431f4, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3224,6 +3253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_beach (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88347f832177e934cb68b552765125df, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3432,6 +3465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3536,6 +3573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3612,6 +3653,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3811,6 +3856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3882,6 +3931,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 88347f832177e934cb68b552765125df, type: 3}
       propertyPath: m_Name
       value: platform_beach
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88347f832177e934cb68b552765125df, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4263,6 +4316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4471,6 +4528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform_stone (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4668,6 +4729,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5538,6 +5603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: End Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 099f7d426cea1744386260433bb7c3b2, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5675,6 +5744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5778,6 +5851,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6562,6 +6639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge_stoneRoundNarrow
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b8b980933cac1b47bf2871b783d6f52, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6727,6 +6808,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
       propertyPath: m_Name
       value: platform_stone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
+      propertyPath: m_TagString
+      value: stone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7205,6 +7290,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
       propertyPath: m_Name
       value: platform_stone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8994a01180b27f42bbe4e3cd8b93b2b, type: 3}
+      propertyPath: m_TagString
+      value: stone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7751,6 +7840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7854,6 +7947,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8261,6 +8358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge_stoneRoundNarrow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b8b980933cac1b47bf2871b783d6f52, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8560,6 +8661,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8893,6 +8998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9026,6 +9135,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9312,6 +9425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lily_small (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9517,6 +9634,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
       propertyPath: m_Name
       value: lily_small (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a461f4107a7552449882b02e51a99c2, type: 3}
+      propertyPath: m_TagString
+      value: grass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10132,6 +10253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Start Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 099f7d426cea1744386260433bb7c3b2, type: 3}
+      propertyPath: m_TagString
+      value: stone
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10205,6 +10330,134 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3600236446110781772, guid: 099f7d426cea1744386260433bb7c3b2, type: 3}
+--- !u!1 &2138875914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138875916}
+  - component: {fileID: 2138875915}
+  m_Layer: 0
+  m_Name: BGMSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &2138875915
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138875914}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -5572724664287928763, guid: 0002c0c4c48d1b94097236794f8639bd, type: 2}
+  m_audioClip: {fileID: 8300000, guid: e835bc43ed0ae454ea39b9f39c33753e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2138875916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138875914}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.432547, y: 7.6021404, z: 24.983404}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2145826600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5161725415093675943, guid: ae24cbf9e5589e1498415507659719f4, type: 3}
@@ -10445,6 +10698,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3902741088909723382, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+      propertyPath: stoneThump
+      value: 
+      objectReference: {fileID: 8300000, guid: f668f9cc373b9bb45bf5193eede84385, type: 3}
+    - target: {fileID: 3902741088909723382, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+      propertyPath: tyAnimator
+      value: 
+      objectReference: {fileID: 7475280976478016948}
+    - target: {fileID: 3902741088909723382, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
       propertyPath: camTransform
       value: 
       objectReference: {fileID: 963194228}
@@ -10507,11 +10768,22 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7951906663751435307, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7475280976478016960}
+    - targetCorrespondingSourceObject: {fileID: 7951906663751435307, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7475280976478016959}
   m_SourcePrefab: {fileID: 100100000, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
 --- !u!1 &7475280976478016947 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7951906663751435307, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
+  m_PrefabInstance: {fileID: 7475280976478016946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7475280976478016948 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3321239279505603269, guid: 889dca13118f5ed4389aad13014ad898, type: 3}
   m_PrefabInstance: {fileID: 7475280976478016946}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7475280976478016954 stripped
@@ -10536,6 +10808,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba47a449fa7436b4ba6007314012b5a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7475280976478016959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475280976478016947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00243c43e401b468c4dfb60b08ae1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneFootsetps: {fileID: 8300000, guid: ef1fc17d3dfdea949a4e4b653a762782, type: 3}
+  grassFootsteps: {fileID: 8300000, guid: c13172800e76b8141a718558c682fdff, type: 3}
+  rockImpact: {fileID: 8300000, guid: f668f9cc373b9bb45bf5193eede84385, type: 3}
+--- !u!82 &7475280976478016960
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475280976478016947}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -5012715473222542845, guid: 0002c0c4c48d1b94097236794f8639bd, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -10555,3 +10938,4 @@ SceneRoots:
   - {fileID: 618318524163780109}
   - {fileID: 1216502114895679208}
   - {fileID: 1188970385}
+  - {fileID: 2138875916}
