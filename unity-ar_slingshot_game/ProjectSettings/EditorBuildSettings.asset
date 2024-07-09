@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARSlingshotGame.unity
+    guid: ca1ff18bb4b0fad4e8e366f1a5d56c58
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d5deb19144bd4f248bb05ca544e903ac, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: d412bbd01149d664d8fec1ee07eabed1, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a8f146f8a68e0004b9e4960d99de15ca, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0e6176c2216011444baf13bd904aa5a3, type: 2}
