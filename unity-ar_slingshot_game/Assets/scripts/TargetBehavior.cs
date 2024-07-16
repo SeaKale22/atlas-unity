@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class TargetBehavior : MonoBehaviour
 {
-    public float targetMoveSpeed = 0.2f;// Speed in units per second
+    public float targetMoveSpeed = 0.05f;// Speed in units per second
+    
     private Vector3 _startPosition;
     private Vector3 _moveTo;
     private bool _movingToTarget = true;

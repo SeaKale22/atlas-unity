@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject targetPrefab;
     public PlaneSelectionManager planeSelectionManager;
     public int numOfTargets = 5;
-    // public float targetMoveSpeed = 2f;
+    public GameObject aimTracker;
 
     private ARPlane _selectedPlane;
     private float minScale = 0.1f; // Minimum scale of the target
@@ -37,6 +37,13 @@ public class GameManager : MonoBehaviour
             {
                 InstantiateTarget();
             }
+            
+            
+            // spawn Ammo
+            //SpawnAmmo();
+            
+            // turn on aimTracker
+            aimTracker.SetActive(true);
         }
     }
     
@@ -61,5 +68,11 @@ public class GameManager : MonoBehaviour
         target.transform.localScale *= scaleFactor;
         // makes sure target is on top of plane
         target.transform.position = new Vector3(target.transform.position.x, bounds.max.y, target.transform.position.z);
+    }
+
+    // method for Instantiating first ammo
+    private void SpawnAmmo()
+    {
+        
     }
 }
