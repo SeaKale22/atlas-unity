@@ -6,13 +6,9 @@ public class startButton : MonoBehaviour
 {
 
     public GameObject startCanvas;
-    public GameManager GameManager;
-    
-    public void StartGame()
+    public void TurnOffStartCanvas()
     {
         Debug.Log("Start button pushed");
-        // call method to start game
-        GameManager.StartGame();
         startCanvas.SetActive(false);
     }
 }

@@ -10,10 +10,8 @@ public class PlaneSelectionManager : MonoBehaviour
 {
     public ARRaycastManager raycastManager;
     public ARPlaneManager planeManager;
-    // start button canvas(NYI)
+    // start button canvas
     public GameObject StartCanvas;
-    // // Game manager to spawn targets (NYI)
-    //public GameManager gameManager; 
     // selected plane, default null
     private ARPlane _selectedPlane = null;
     

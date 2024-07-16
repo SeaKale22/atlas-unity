@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 206019624982167950}
   - component: {fileID: 8752603687878804918}
   - component: {fileID: 1594869015422824848}
+  - component: {fileID: -3819885885643023888}
   m_Layer: 0
   m_Name: target
   m_TagString: Target
@@ -62,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0ec3b66092f5bdf4c99f135e82dcca03, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,3 +108,15 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-3819885885643023888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6363257532782138560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3855444c958a9449b8e43a8e79ce45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
