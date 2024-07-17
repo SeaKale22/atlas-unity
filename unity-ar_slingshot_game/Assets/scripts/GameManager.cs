@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -10,14 +11,26 @@ using Random = UnityEngine.Random;
 public class GameManager : MonoBehaviour
 {
     public GameObject targetPrefab;
+    public GameObject ammoPrefab;
+    public GameObject mainCam;
     public PlaneSelectionManager planeSelectionManager;
     public int numOfTargets = 5;
-    public GameObject aimTracker;
+    public AimTracker aimTracker;
+    public bool ammoLaunched = false;
+    public GameObject gameCanvas;
+    public TMP_Text scoreText;
 
     private ARPlane _selectedPlane;
     private float minScale = 0.1f; // Minimum scale of the target
     private float maxScale = 1.0f; // Maximum scale of the target
     private float maxDistance = 10f; // Maximum distance for scaling
+    private GameObject ammo;
+    private int _score = 0;
+
+    void Update()
+    {
+        scoreText.text = $"Score: {_score}";
+    }
 
     public void StartGame()
     {
@@ -30,21 +43,25 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // hide selected plane
-            _selectedPlane.GameObject().SetActive(false);
             // instantiate targets = num
             for (int i = 0; i < numOfTargets; i++)
             {
                 InstantiateTarget();
             }
             
+            // turn on aimTracker
+            aimTracker.GameObject().SetActive(true);
+            aimTracker.SelectedPlaneYSetter(_selectedPlane.GetComponent<Renderer>().bounds.min.y);
+            
+            // hide selected plane
+            _selectedPlane.GameObject().SetActive(false);
             
             // spawn Ammo
-            //SpawnAmmo();
-            
-            // turn on aimTracker
-            aimTracker.SetActive(true);
+            SpawnAmmo();
         }
+        
+        // turn on gameCanvas
+        gameCanvas.SetActive(true);
     }
     
     // method for Instantiating a target
@@ -57,7 +74,7 @@ public class GameManager : MonoBehaviour
         // create random position from the bounds of selected plane
         float randomX = Random.Range(bounds.min.x, bounds.max.x);
         float randomZ = Random.Range(bounds.min.z, bounds.max.z);
-        Vector3 randomPosition = new Vector3(randomX, bounds.max.y, randomZ);
+        Vector3 randomPosition = new Vector3(randomX, bounds.min.y, randomZ);
         
         // instantiate the target prefab at random position
         GameObject target = Instantiate(targetPrefab, randomPosition, Quaternion.identity);
@@ -73,6 +90,27 @@ public class GameManager : MonoBehaviour
     // method for Instantiating first ammo
     private void SpawnAmmo()
     {
-        
+        Vector3 ammoPos = mainCam.transform.position;
+        ammoPos.z += 0.5f;
+        ammo = Instantiate(ammoPrefab, ammoPos, Quaternion.identity);
+        ammo.GetComponent<AmmoBehavior>().SetGameManager(this);
+
+    }
+    public void LaunchAmmo()
+    {
+        if (!ammoLaunched)
+        {
+            Vector3 toLocation = aimTracker.EndPosGetter();
+            ammo.GetComponent<AmmoBehavior>().Launch(toLocation);
+            ammoLaunched = true;
+        }
+    }
+
+    public void Score()
+    {
+        ammoLaunched = false;
+        _score += 1;
+        Destroy(ammo);
+        SpawnAmmo();
     }
 }

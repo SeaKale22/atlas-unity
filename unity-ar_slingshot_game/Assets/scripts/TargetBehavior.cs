@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class TargetBehavior : MonoBehaviour
 {
-    public float targetMoveSpeed = 0.05f;// Speed in units per second
+    public float targetMoveSpeed = 0.5f;// Speed in units per second
+    public GameManager gameManager;
     
     private Vector3 _startPosition;
     private Vector3 _moveTo;
@@ -11,7 +14,7 @@ public class TargetBehavior : MonoBehaviour
     void Awake()
     {
         _startPosition = transform.position;
-        _moveTo = new Vector3(Random.Range(-2f, 2f), 0f, Random.Range(-2f, 2f));
+        _moveTo = new Vector3(Random.Range(-2f, 2f), _startPosition.y, Random.Range(-2f, 2f));
     }
 
     void Update()
@@ -24,6 +27,15 @@ public class TargetBehavior : MonoBehaviour
         if (transform.position == targetPosition)
         {
             _movingToTarget = !_movingToTarget; // Switch direction
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Ammo"))
+        {
+            gameManager.Score();
+            Destroy(this.gameObject);
         }
     }
 }
