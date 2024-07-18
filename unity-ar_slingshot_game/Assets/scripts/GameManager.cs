@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public bool ammoLaunched = false;
     public GameObject gameCanvas;
     public TMP_Text scoreText;
+    public TMP_Text ammoText;
+    public GameObject restartButton;
 
     private ARPlane _selectedPlane;
     private float minScale = 0.1f; // Minimum scale of the target
@@ -26,10 +28,12 @@ public class GameManager : MonoBehaviour
     private float maxDistance = 10f; // Maximum distance for scaling
     private GameObject ammo;
     private int _score = 0;
+    private int _ammoLeft = 8;
 
     void Update()
     {
         scoreText.text = $"Score: {_score}";
+        ammoText.text = $"Ammo: {_ammoLeft}";
     }
 
     public void StartGame()
@@ -55,6 +59,9 @@ public class GameManager : MonoBehaviour
             
             // hide selected plane
             _selectedPlane.GameObject().SetActive(false);
+            
+            // make sure that restart button is off
+            restartButton.SetActive(false);
             
             // spawn Ammo
             SpawnAmmo();
@@ -103,6 +110,7 @@ public class GameManager : MonoBehaviour
         {
             Vector3 toLocation = aimTracker.EndPosGetter();
             ammo.GetComponent<AmmoBehavior>().Launch(toLocation);
+            _ammoLeft -= 1;
             ammoLaunched = true;
         }
     }
@@ -117,9 +125,29 @@ public class GameManager : MonoBehaviour
     }
 
     public void RespawnAmmo()
-    { 
+    {
         ammoLaunched = false;
         Destroy(ammo);
-        SpawnAmmo();
+        if (_ammoLeft > 0)
+        {
+            SpawnAmmo();
+        }
+        else
+        {
+            ammoText.text = "Out of Ammo!";
+            restartButton.SetActive(true);
+        }
+    }
+
+    public void Restart()
+    {
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("Target");
+        foreach (GameObject target in targets)
+        {
+            Destroy(target);
+        }
+        _score = 0;
+        _ammoLeft = 8;
+        StartGame();
     }
 }
