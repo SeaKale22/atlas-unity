@@ -28,9 +28,10 @@ public class AmmoBehavior : MonoBehaviour
     
     private IEnumerator DestroyAmmo()
     {
-        yield return new WaitForSeconds(10f);
-        gameManager.ammoLaunched = false;
-        Destroy(this);
+        yield return new WaitForSeconds(8f);
+        //gameManager.ammoLaunched = false;
+        //Destroy(this.gameObject);
+        gameManager.RespawnAmmo();
     }
 
     public void SetGameManager(GameManager manager)

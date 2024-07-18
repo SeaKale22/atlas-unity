@@ -92,6 +92,7 @@ public class GameManager : MonoBehaviour
     {
         Vector3 ammoPos = mainCam.transform.position;
         ammoPos.z += 0.5f;
+        ammoPos.y += -0.5f;
         ammo = Instantiate(ammoPrefab, ammoPos, Quaternion.identity);
         ammo.GetComponent<AmmoBehavior>().SetGameManager(this);
 
@@ -110,6 +111,14 @@ public class GameManager : MonoBehaviour
     {
         ammoLaunched = false;
         _score += 1;
+        Destroy(ammo);
+        SpawnAmmo();
+        RespawnAmmo();
+    }
+
+    public void RespawnAmmo()
+    { 
+        ammoLaunched = false;
         Destroy(ammo);
         SpawnAmmo();
     }

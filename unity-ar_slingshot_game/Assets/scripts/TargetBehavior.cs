@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class TargetBehavior : MonoBehaviour
 {
-    public float targetMoveSpeed = 0.5f;// Speed in units per second
+    public float targetMoveSpeed = 1f;// Speed in units per second
     public GameManager gameManager;
     
     private Vector3 _startPosition;
@@ -17,7 +17,7 @@ public class TargetBehavior : MonoBehaviour
         _moveTo = new Vector3(Random.Range(-2f, 2f), _startPosition.y, Random.Range(-2f, 2f));
     }
 
-    void Update()
+    void LateUpdate()
     {
         Vector3 targetPosition = _movingToTarget ? _moveTo : _startPosition;
         float step = targetMoveSpeed * Time.deltaTime;
