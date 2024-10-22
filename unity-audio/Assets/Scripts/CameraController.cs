@@ -13,7 +13,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         // lock cursor in center of screen
-        // Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     
     // Update is called once per frame
