@@ -53,8 +53,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _maxGlowStrength: 3
-    - _minGlowStrength: 2
-    - _pulseFrequency: 2.61
+    - _minGlowStrength: 1
+    - _pulseFrequency: 0.63
     m_Colors:
     - _baseColor: {r: 0.18604776, g: 0.7433963, b: 0.10519747, a: 0}
     - _glowColor: {r: 0.10588234, g: 0.23476097, b: 0.8352941, a: 0}
